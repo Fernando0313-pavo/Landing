@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 80px 0;
+    color: skyblue;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#contenido {
+    padding: 80px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+li {
+    display: inline-block;
+    width: 30%;
+    margin: 0 20px;
+}
+
+img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+a{
+  text-decoration: none;
+  color: white;  
+}
+.card {
+    position: relative;
+    width: 300px; /* ajusta el tamaño de la tarjeta según tu preferencia */
+    height: 400px; /* ajusta el tamaño de la tarjeta según tu preferencia */
+    margin: 20px; /* ajusta el margen entre cada tarjeta según tu preferencia */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* añade sombra a las tarjetas */
+    border-radius: 5px; /* redondea las esquinas de las tarjetas */
+    overflow: hidden; /* asegura que la imagen no se desborde de la tarjeta */
+  }
+  
+  .card img {
+    position: absolute;
+    width: 100%; /* ajusta la imagen para que se ajuste al ancho de la tarjeta */
+    height: 100%; /* ajusta la imagen para que se ajuste a la altura de la tarjeta */
+    object-fit: cover; /* ajusta la imagen para que cubra completamente la tarjeta sin distorsionarse */
+    filter: grayscale(100%); /* aplica un filtro blanco y negro al 100% */
+    transition: transform .3s ease-out, filter .3s ease-out; /* añade una transición suave al efecto hover */
+  }
+  
+  .card:hover img {
+    transform: scale(1.1); /* escala la imagen al 120% en el efecto hover */
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 80px 0;
+    color: skyblue;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#contenido {
+    padding: 80px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+li {
+    display: inline-block;
+    width: 30%;
+    margin: 0 20px;
+}
+
+img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+a{
+  text-decoration: none;
+  color: white;  
+}filter: grayscale(0%); /* remue
+    ve el filtro blanco y negro en el efecto hover */
+  }
+  
+  .card h2,
+  .card p {
+    position: relative;
+    z-index: 1; /* asegura que el texto esté por encima de la imagen */
+    padding: 20px; /* ajusta el espacio entre el texto y el borde de la tarjeta */
+  }
+  
